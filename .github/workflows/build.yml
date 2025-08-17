@@ -45,8 +45,3 @@ jobs:
 
       - name: Test Success Message
         run: echo "Tests completed successfully."
-
-      - name: Upload Build Artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: build-artifacts
