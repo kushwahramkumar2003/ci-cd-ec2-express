@@ -37,6 +37,13 @@
     "jsx": "react-jsx",
     "isolatedModules": true,
     "moduleDetection": "force",
-    "skipLibCheck": true,
-  }
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "jest.config.ts",
+    "jest.config.d.ts",
+    "jest.config.d.ts.map",
+    "node_modules",
+    "dist"
+  ]
 }
